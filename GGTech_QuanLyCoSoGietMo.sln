@@ -5,6 +5,20 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGTech_QuanLyCoSoGietMo", "GGTech_QuanLyCoSoGietMo\GGTech_QuanLyCoSoGietMo.csproj", "{FAECAAB7-4A6A-40B8-A10E-EB1A2126ADCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGTech_DataAccessLayer", "GGTech_DataAccessLayer\GGTech_DataAccessLayer.csproj", "{A580890B-46E4-465D-9992-560B00B2B5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGTech_Services", "GGTech_Services\GGTech_Services.csproj", "{FAA0864B-9FC1-4B19-8F18-C19EB29523EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Data", "1 - Data", "{C8EEB47C-9B60-432A-AB33-4F7776F87211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{BDED16D5-8145-4669-ADFB-8E4E15266A1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - WinForm", "3 - WinForm", "{D8FA7543-1FE7-4160-9239-72220F0E9674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Common", "1 - Common", "{35233D6F-7221-4EF7-A509-742475DF8284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGTech_Common", "GGTech_Common\GGTech_Common.csproj", "{AC763F0B-97A2-483D-9010-D212E7940594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +29,27 @@ Global
 		{FAECAAB7-4A6A-40B8-A10E-EB1A2126ADCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAECAAB7-4A6A-40B8-A10E-EB1A2126ADCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAECAAB7-4A6A-40B8-A10E-EB1A2126ADCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A580890B-46E4-465D-9992-560B00B2B5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A580890B-46E4-465D-9992-560B00B2B5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A580890B-46E4-465D-9992-560B00B2B5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A580890B-46E4-465D-9992-560B00B2B5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA0864B-9FC1-4B19-8F18-C19EB29523EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA0864B-9FC1-4B19-8F18-C19EB29523EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA0864B-9FC1-4B19-8F18-C19EB29523EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA0864B-9FC1-4B19-8F18-C19EB29523EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC763F0B-97A2-483D-9010-D212E7940594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC763F0B-97A2-483D-9010-D212E7940594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC763F0B-97A2-483D-9010-D212E7940594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC763F0B-97A2-483D-9010-D212E7940594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAECAAB7-4A6A-40B8-A10E-EB1A2126ADCE} = {D8FA7543-1FE7-4160-9239-72220F0E9674}
+		{A580890B-46E4-465D-9992-560B00B2B5B5} = {C8EEB47C-9B60-432A-AB33-4F7776F87211}
+		{FAA0864B-9FC1-4B19-8F18-C19EB29523EC} = {BDED16D5-8145-4669-ADFB-8E4E15266A1A}
+		{AC763F0B-97A2-483D-9010-D212E7940594} = {35233D6F-7221-4EF7-A509-742475DF8284}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9BB7A50B-CA21-41BF-81A7-CCBF1B1E8914}
