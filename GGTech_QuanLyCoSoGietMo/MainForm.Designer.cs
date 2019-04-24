@@ -77,8 +77,8 @@
             // cấuHìnhCSDLToolStripMenuItem
             // 
             this.cấuHìnhCSDLToolStripMenuItem.Name = "cấuHìnhCSDLToolStripMenuItem";
-            this.cấuHìnhCSDLToolStripMenuItem.Size = new System.Drawing.Size(213, 30);
-            this.cấuHìnhCSDLToolStripMenuItem.Text = "Cấu hình CSDL";
+            this.cấuHìnhCSDLToolStripMenuItem.Size = new System.Drawing.Size(228, 30);
+            this.cấuHìnhCSDLToolStripMenuItem.Text = "Cài đặt hệ thống";
             // 
             // toolStripSeparator1
             // 

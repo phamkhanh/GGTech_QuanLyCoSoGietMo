@@ -1,6 +1,5 @@
 ﻿using GGTech_Common;
 using GGTech_QuanLyCoSoGietMo.DanhMuc;
-using GGTech_Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,8 +18,7 @@ namespace GGTech_QuanLyCoSoGietMo
         public MainForm()
         {
             InitializeComponent();
-            _FInitSettingAppFile();
-            DataAdapterSql._FSetConnectionString();
+            //_FInitSettingAppFile();
         }
 
         private void _FInitSettingAppFile()

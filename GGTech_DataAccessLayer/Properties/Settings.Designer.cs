@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GGTech_QuanLyCoSoGietMo.Properties {
+namespace GGTech_DataAccessLayer.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,9 +26,8 @@ namespace GGTech_QuanLyCoSoGietMo.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\My Documents\\Visual Studi" +
-            "o 2017\\Projects\\NetCore\\GGTech_QuanLyCoSoGietMo\\GGTech_DataAccessLayer\\DB\\GGTech" +
-            "_QuanLyCoSoGietMo.mdf\";Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DB\\GGTech_Qua" +
+            "nLyCoSoGietMo.mdf;Integrated Security=True")]
         public string GGTech_QuanLyCoSoGietMoConnectionString {
             get {
                 return ((string)(this["GGTech_QuanLyCoSoGietMoConnectionString"]));
