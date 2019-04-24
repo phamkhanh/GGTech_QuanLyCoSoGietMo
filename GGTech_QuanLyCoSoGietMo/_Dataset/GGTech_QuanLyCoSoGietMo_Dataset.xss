@@ -7,18 +7,22 @@
 <DiagramLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ex:showrelationlabel="False" ViewPortX="0" ViewPortY="0" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns="urn:schemas-microsoft-com:xml-msdatasource-layout">
   <Shapes>
     <Shape ID="DesignTable:KhachHangTab" ZOrder="3" X="416" Y="164" Height="134" Width="298" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
-    <Shape ID="DesignTable:ThuChiTab" ZOrder="2" X="927" Y="150" Height="286" Width="207" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="235" />
+    <Shape ID="DesignTable:ThuChiTab" ZOrder="2" X="1015" Y="292" Height="343" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="235" />
   </Shapes>
   <Connectors>
     <Connector ID="DesignRelation:FK_ThuChiTab_KhachHangTab" ZOrder="1" LineWidth="11">
       <RoutePoints>
         <Point>
-          <X>714</X>
-          <Y>221</Y>
+          <X>697</X>
+          <Y>298</Y>
         </Point>
         <Point>
-          <X>927</X>
-          <Y>221</Y>
+          <X>697</X>
+          <Y>309</Y>
+        </Point>
+        <Point>
+          <X>1015</X>
+          <Y>309</Y>
         </Point>
       </RoutePoints>
     </Connector>
