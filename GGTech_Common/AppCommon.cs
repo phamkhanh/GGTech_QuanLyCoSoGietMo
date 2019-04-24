@@ -6,6 +6,7 @@ using System.Data.OleDb;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -64,6 +65,43 @@ namespace GGTech_Common
                 _value = doc.SelectSingleNode(node).InnerText;
             }
             return _value;
+        }
+
+        public static void AddFormToMdiParent(Form frm, Form mdiParent)
+        {
+            bool _isExisted = false;
+
+            if (mdiParent.MdiChildren.Count() == 0)
+            {
+                _isExisted = false;
+            }
+            else
+            {
+                foreach (Form tabItem in mdiParent.MdiChildren)
+                {
+                    //tabItem.WindowState = FormWindowState.Minimized;
+                    tabItem.Close();
+                }
+
+                foreach (Form tabItem in mdiParent.MdiChildren)
+                {
+                    if (tabItem.Text == frm.Text)
+                    {
+                        tabItem.Activate();
+                        tabItem.WindowState = FormWindowState.Maximized;
+                        _isExisted = true;
+                        break;
+                    }
+                }
+            }
+
+            if (!_isExisted)
+            {
+                frm.MdiParent = mdiParent;
+                frm.WindowState = FormWindowState.Maximized;
+                frm.ControlBox = false;
+                frm.Show();
+            }
         }
 
         public static void FileOpen(string _path)

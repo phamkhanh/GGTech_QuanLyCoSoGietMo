@@ -1,4 +1,5 @@
 ﻿using GGTech_Common;
+using GGTech_QuanLyCoSoGietMo.DanhMuc;
 using GGTech_Services;
 using System;
 using System.Collections.Generic;
@@ -34,6 +35,16 @@ namespace GGTech_QuanLyCoSoGietMo
                 File.Create(AppCommon.AppSettingFileXml).Close();
                 AppCommon._FSaveSettingApp("ADMIN\\SQLEXPRESS2012", "GGTech_QuanLyCoSoGietMo", "10");
             }
+        }
+
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AppCommon.AddFormToMdiParent(new KhachHangForm(), this);
+        }
+
+        private void nhậpDữLiệuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
